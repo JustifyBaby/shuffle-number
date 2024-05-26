@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./shuffle-svgrepo-com.svg"
+      type="image/x-icon" />
+    <!-- From: https://www.svgrepo.com/svg/100409/shuffle -->
+    <title>Shuffle Number!</title>
+  </head>
+  <body>
+    <h1>Shuffle Number</h1>
+    <div class="inputs-wrap">
+      from
+      <input type="number" id="start" value="1" />
+      to
+      <input type="number" id="end" autofocus />
+    </div>
+    <!-- <button onclick="generate()">Generate</button> -->
+    <!-- <div class="effect">↓Shuffled↓</div> -->
+    <div class="explain">Press "prev" or "next"</div>
+
+    <div class="rlt-wrap">
+      <button id="prev">Previous</button>
+      <div id="current"></div>
+      <button id="next">Next>></button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
